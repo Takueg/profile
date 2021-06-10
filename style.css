@@ -1,0 +1,121 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 16px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  margin: 20px 0px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+/*#footer {
+  background-image: linear-gradient(to right bottom, #2f3e46, #354c53, #3c5b5f, #456a68, #52796f);
+}*/
+
+.btn-green {
+  background: #354f52;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-green:hover {
+  transition:color 2s;
+  background: #52796f;
+  color: white;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
+
+#introduction a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;;
+}
+
+#introduction {
+  background-image: linear-gradient(to right bottom, #2f3e46, #354c53, #3c5b5f, #456a68, #52796f);
+  background-size: auto 44%;
+  background-repeat: no-repeat;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #354f52;
+  font-size: 24px;;
+}
+
+#footer a:hover {
+  color: #52796f;
+}
+
+
+.img-circle {
+  border-radius: 50px;
+}
+
+body {
+  background: #F7F9FC;
+  color: #2f3e46;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color: #354f52;
+  font-weight: 600;
+  font-size: 24px;
+}
